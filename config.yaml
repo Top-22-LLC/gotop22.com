@@ -1,0 +1,29 @@
+baseURL: "https://gotop22.com/"
+languageCode: en-us
+title: Top 22
+# Enable when there's actual commits.
+# enableGitInfo: true
+theme: etch
+enableInlineShortcodes: true
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+params:
+  description: Top 22 Business Information
+  copyright: Copyright © 2023 Top22LLC
+  dark: auto
+  highlight: true
+  GitHubUser: top-22-llc
+menu:
+  main:
+    - identifier: contact
+      name: contact
+      title: contact
+      url: /contact/
+      weight: 20
+permalinks:
+  posts: "/:title/"
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
